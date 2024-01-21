@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+}
+h1,h2{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color:limegreen;
+    /*text-shadow:5px 5px 5px limegreen;*/
+}
+.button{
+    display:flex;
+    justify-content:space-around;
+}
+.buttons{
+    font-family:fantasy;
+    padding:7px;
+    border:10px solid white;
+    width:200px;
+    border-radius:50px;
+    background-color:black;
+    color:limegreen;
+    cursor:pointer;
+    box-sizing:border-box;
+}
+.buttons:hover{
+    color:white;
+}
+.buttons:active{
+    background-color:white;
+    color:black;
+    border-color:black;
+}
+.tododiv{
+    display:none;
+    margin-left:auto;
+    margin-right:auto;
+    border:10px solid white;
+    border-radius:20px;
+    color:limegreen;
+    text-align:center;
+}
+label{
+    font-size:1.5em;
+}
+input{
+    text-align:center;
+    width:50%;
+    font-size:1.5em;
+}
+.todobutton{
+    width:150px;
+    border-radius:30px;
+    color:limegreen;
+    background-color: black;
+    font-family:serif;
+    padding:7px;
+    cursor:pointer;
+}
+.todobutton:active{
+    width:200px;
+}
+#viewtododata{
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1em;
+}
